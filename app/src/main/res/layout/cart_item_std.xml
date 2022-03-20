@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:weightSum="1"
+    android:background="#15DC17"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id"
+            android:textSize="20sp"
+            android:id="@+id/tvId"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            android:text="name"
+            android:id="@+id/tvName"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+android:textStyle="bold"
+            android:text="email"
+            android:id="@+id/tvEmail"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            android:layout_height="wrap_content"
+            android:text="class"
+            android:id="@+id/tvClasss"></TextView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        app:backgroundTint="#8E1D1D"></Button>
+
+</LinearLayout>
